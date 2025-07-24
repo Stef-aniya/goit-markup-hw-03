@@ -36,11 +36,16 @@ p{
     border-bottom: 1px solid #e7e9fc;
 }
 .container{
-    width: 1440px;
+    width: 1158px;
     height: 312px;
+    display: flex;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .nav{
     display: flex;
+    align-items: center;
 }
 .logo{
     font-family: "Raleway", sans-serif;
