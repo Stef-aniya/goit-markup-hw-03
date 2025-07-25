@@ -32,6 +32,10 @@ p{
     margin-right: 0;
 }
 /* Header */
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .head{
     border-bottom: 1px solid #e7e9fc;
 }
