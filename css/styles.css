@@ -1,7 +1,7 @@
 body {
-font-family: 'Roboto', sans-serif;
-color: #434455;
-background-color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #FFFFFF;
 }
 /* common */
 a{
@@ -13,43 +13,78 @@ ul,ol{
     margin-right: 0;
     margin-left: 0;
     margin-top: 0;
-    margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
 }
-
+img{
+    display: block;
+}
+h1,h2,h3,h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
 p{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+/* Header */
+.head{
+    border-bottom: 1px solid #e7e9fc;
 }
 .container{
     width: 1158px;
     height: 312px;
-    height: 72px;
     display: flex;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-
 }
 .nav{
     display: flex;
-    align-items: center;
 }
 .logo{
     font-family: "Raleway", sans-serif;
-}
-p{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;
     margin-top: 24px;
 }
 .menu-nav{
     list-style: none;
+    margin: 0;
+    display: flex;
+    gap: 40px;
+}
+.logo-part{
+    color: #2E2F42;
+}
+.menu-list-item{
+    color: #2E2F42;
+}
+a{
+    text-decoration: none;
+}
+.menu-nav-link{
+    font-family:"Roboto",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42 ; 
+}
+.menu-nav-link:hover,
+.menu-nav-link:focus{
+    color: #404bbf;
 }
 .adres-clas{
     font-style: normal;
-    
     display: block;
     margin-right: auto;
 }
@@ -59,27 +94,27 @@ p{
 }
 .menu-list-link{
     color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
 }
-a{
-color: #404bbf;
+.menu-list-link:hover,
+.menu-list-link:focus{
+ color: #404bbf;
 }
 /* Solutions */
 .dv-solutions{
-    width: 1440px;
-    height: 600px;
-    background-color: #2E2F42;
+    
 }
 .solutions{
     background-color:#2E2F42 ;
 }
 .main{
     font-size: 56px;
-
-a{
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
-    align-items: center;
 }
 .button-order{
     background-color: #4d5ae5;
@@ -173,7 +208,8 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 .footer{
-    background-color: #2E2F42;
+   background-color: #2E2F42;
+   
 }
 .copywrite-part{
     color: #F4F4FD;
@@ -187,4 +223,5 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
-}
+ }
+
