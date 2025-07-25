@@ -46,6 +46,7 @@ p{
 }
 .nav{
     display: flex;
+    align-items: center;
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -56,12 +57,14 @@ p{
     text-transform: uppercase;
     color: #4d5ae5;
     margin-top: 24px;
+    margin-right: 76px;
 }
 .menu-nav{
     list-style: none;
     margin: 0;
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 .logo-part{
     color: #2E2F42;
