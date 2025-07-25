@@ -46,6 +46,7 @@ p{
 .nav{
     display: flex;
     align-items: center;
+    height: 72px;
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -106,11 +107,10 @@ a{
 color: #404bbf;
 }
 /* Solutions */
-.dv-solutions{
-
-}
 .solutions{
     background-color:#2E2F42 ;
+    width: 1440px;
+    height: 600px;
 }
 .main{
     font-size: 56px;
