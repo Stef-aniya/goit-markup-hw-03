@@ -159,12 +159,20 @@ color: #404bbf;
     white-space: nowrap;
     border: 0;
 }
+.strategy-ul{
+    display: flex;
+    gap: 24px;
+}
+.strategy-li{
+    width: calc((100% - 72px) / 4); 
+}
 .main-items{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
     font-weight: 500;
+    margin-bottom: 8px;
 }
 .main-items-text{
 font-weight: 400;
