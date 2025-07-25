@@ -45,6 +45,7 @@ p{
 }
 .nav{
     display: flex;
+    align-items: center;
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -55,6 +56,7 @@ p{
     text-transform: uppercase;
     color: #4d5ae5;
     margin-top: 24px;
+    margin-right: 76px;
 }
 .menu-nav{
     list-style: none;
@@ -67,6 +69,7 @@ p{
 }
 .menu-list-item{
     color: #2E2F42;
+    padding: 24px 0
 }
 a{
     text-decoration: none;
@@ -100,7 +103,7 @@ a{
 }
 .menu-list-link:hover,
 .menu-list-link:focus{
- color: #404bbf;
+color: #404bbf;
 }
 /* Solutions */
 .dv-solutions{
