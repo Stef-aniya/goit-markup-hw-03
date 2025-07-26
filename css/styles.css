@@ -195,7 +195,11 @@ color: #434455;
     text-align: center;
     text-transform: capitalize;
     color:#2E2F42 ;
-
+    margin-bottom: 72px;
+}
+.team-ul{
+    display: flex;
+    gap: 24px;
 }
 .team-name{
     font-weight: 500;
@@ -207,6 +211,8 @@ color: #434455;
 }
 .team-person{
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .team-info{
     font-weight: 400;
