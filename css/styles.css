@@ -272,7 +272,7 @@ color: #434455;
 }
 .footer{
     background-color: #2E2F42;
-    padding: 100px 0
+    padding: 100px 0;
 }
 .logotype{
     display: inline-block;
@@ -284,6 +284,7 @@ color: #434455;
 }
 .foot-logo{
     color: #FFFFFF;
+    display: inline-block;
 }
 .foot-text{
     font-weight: 400;
@@ -292,5 +293,5 @@ color: #434455;
     letter-spacing: 0.02em;
     color: #F4F4FD;
     max-width: 264px;
- }
+}
 
