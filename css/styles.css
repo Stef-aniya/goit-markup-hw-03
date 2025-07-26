@@ -141,6 +141,10 @@ color: #404bbf;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 .button-order:hover,
 .button-order:focus{
