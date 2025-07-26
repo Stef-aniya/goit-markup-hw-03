@@ -187,6 +187,10 @@ color: #434455;
 .team{
     background-color: #F4F4FD;
 }
+.info{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 .our-team{
     font-weight: 700;
     font-size: 36px;
@@ -208,6 +212,7 @@ color: #434455;
     letter-spacing: 0.02em;
     text-align: center;
     color:#2E2F42 ;
+    margin-bottom: 8px;
 }
 .team-person{
     background-color: #FFFFFF;
