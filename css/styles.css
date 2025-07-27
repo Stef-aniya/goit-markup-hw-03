@@ -48,6 +48,7 @@ p{
     padding-right: 15px;
 }
 .nav{
+    display: flex;
     align-items: center;
     height: 72px;
 }
@@ -278,10 +279,7 @@ color: #434455;
     background-color: #2E2F42;
     padding: 100px 0;
 }
-.footer-logo{
-    display: inline-block;
-    margin-bottom: 16px;
-}
+
 a .footer-logo{
     display: inline-block;
 }
