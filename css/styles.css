@@ -282,7 +282,9 @@ color: #434455;
 .footer-logo{
     display: inline-block;
     margin-bottom: 16px;
-
+}
+a .footer-logo{
+    display: inline-block;
 }
 .footer-logo .logo-part{
     color: #F4F4FD;
