@@ -274,19 +274,20 @@ color: #434455;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-.footer{
+/* Footer */
+.page-footer{
     background-color: #2E2F42;
     padding: 100px 0;
 }
-.logo-link{
+.footer-logo{
     display: inline-block;
     margin-bottom: 16px;
 
 }
-.copywrite-part{
+.footer-logo .logo-part{
     color: #F4F4FD;
 }
-.foot-text{
+.page-footer-text{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
