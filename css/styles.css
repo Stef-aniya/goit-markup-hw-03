@@ -61,6 +61,7 @@ p{
     color: #4d5ae5;
     margin-top: 24px;
     margin-right: 76px;
+    display: block;
 }
 .menu-nav{
     list-style: none;
@@ -144,6 +145,7 @@ color: #404bbf;
     height: 56px;
     border: none;
     border-radius: 4px;
+    display: block;
 }
 .button-order:hover,
 .button-order:focus{
